@@ -64,24 +64,6 @@ agent-starter-embed/
 
 ## Getting started
 
-> [!TIP]
-> If you'd like to try this application without modification, you can deploy an instance in just a few clicks with [LiveKit Cloud Sandbox](https://cloud.livekit.io/projects/p_/sandbox/templates/agent-starter-embed).
-
-[![Open on LiveKit](https://img.shields.io/badge/Open%20on%20LiveKit%20Cloud-002CF2?style=for-the-badge&logo=external-link)](https://cloud.livekit.io/projects/p_/sandbox/templates/agent-starter-embed)
-
-Clone the template:
-
-```bash
-lk app create --template agent-starter-embed
-```
-
-Install dependencies and build the embed script:
-
-```bash
-pnpm install
-pnpm build-embed-popup-script   # Builds public/embed-popup.js
-```
-
 Run the web app and the agent worker together:
 
 ```bash
